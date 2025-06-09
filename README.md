@@ -1,49 +1,52 @@
 ```mermaid
 
-graph TD
-  %% Layer 1: Molecular / Synaptic / .md
-  MD[.md → Molecular] --> MD1[Synaptic]
-  MD1 --> F1[🧠 Fractal]
-  F1 --> MD2[Genetic]
-  MD2 --> MD3[Epigenetic]
-  MD3 --> MD4[Transcriptomic]
-  MD4 --> MD5[Proteomic]
-  MD5 --> MD6[Metabolomic]
+  A1[.md → Molecular] --> B1[Synaptic]
+  B1 --> C1[🧠 Fractal]
+  C1 --> D1[🪞 Distinctions]
+  D1 --> E1[Genetic]
+  E1 --> F1[Epigenetic]
+  F1 --> G1[Transcriptomic]
+  G1 --> H1[Proteomic]
+  H1 --> I1[Metabolomic]
 
-  %% Layer 2: Cellular / Axonal / .yml
-  YML[.yml → Anatomical] --> YML1[Axonal]
-  YML1 --> F2[🛠 GitHub]
-  F2 --> YML2[Cell Type]
-  YML2 --> YML3[Tissue]
-  YML3 --> YML4[Organ]
-  YML4 --> YML5[System]
-  YML5 --> YML6[Body Map]
+  %% Column 2
+  A2[.yml → Anatomical] --> B2[Axonal]
+  B2 --> C2[🛠 GitHub]
+  C2 --> D2[👁 Observed]
+  D2 --> E2[Cell Type]
+  E2 --> F2[Tissue]
+  F2 --> G2[Organ]
+  G2 --> H2[System]
+  H2 --> I2[Body Map]
 
-  %% Layer 3: Ganglionic / Sensorimotor / .py
-  PY[.py → Physiological] --> PY1[Sensorimotor]
-  PY1 --> F3[🤝 Peers-Clients]
-  F3 --> PY2[Reflex]
-  PY2 --> PY3[Homeostasis]
-  PY3 --> PY4[Feedback]
-  PY4 --> PY5[Neurohumoral]
-  PY5 --> PY6[Cybernetic]
+  %% Column 3
+  A3[.py → Physiological] --> B3[Sensorimotor]
+  B3 --> C3[🤝 Peers-Clients]
+  C3 --> D3[✅ Admissible]
+  D3 --> E3[Reflex]
+  E3 --> F3[Homeostasis]
+  F3 --> G3[Feedback]
+  G3 --> H3[Neurohumoral]
+  H3 --> I3[Cybernetic]
 
-  %% Layer 4: Hippocampal / Network / .html
-  HTML[.html → Integument] --> HTML1[Networked]
-  HTML1 --> F4[🏢 Ukubona]
-  F4 --> HTML2[Skin]
-  HTML2 --> HTML3[Gesture]
-  HTML3 --> HTML4[Icon]
-  HTML4 --> HTML5[Layout]
-  HTML5 --> HTML6[Interaction Grammar]
+  %% Column 4
+  A4[.html → Integument] --> B4[Networked]
+  B4 --> C4[🏢 Ukubona]
+  C4 --> D4[🔤 Unambiguous]
+  D4 --> E4[Skin]
+  E4 --> F4[Gesture]
+  F4 --> G4[Icon]
+  G4 --> H4[Layout]
+  H4 --> I4[Interaction Grammar]
 
-  %% Layer 5: Prefrontal / Behavioral / .app
-  APP[.app → Act] --> APP1[Behavioral]
-  APP1 --> F5[📱 App]
-  F5 --> APP2[Reflexive]
-  APP2 --> APP3[Habitual]
-  APP3 --> APP4[Intentional]
-  APP4 --> APP5[Cooperative]
-  APP5 --> APP6[Emergent]
+  %% Column 5
+  A5[.app → Act] --> B5[Behavioral]
+  B5 --> C5[📱 App]
+  C5 --> D5[💡 Concepts]
+  D5 --> E5[UI/UX]
+  E5 --> F5[Habitual]
+  F5 --> G5[Intentional]
+  G5 --> H5[Cooperative]
+  H5 --> I5[Emergent]
 
 ```
