@@ -35,7 +35,7 @@ graph TD
   %% Column 4
   A4[.html → Integument] --> B4[Networked]
   B4 --> C4[🏢 Ukubona]
-  C4 --> D4[🔤 Unambiguous]
+  C4 --> D4[🔤 Unambiguously]
   D4 --> E4[Skin]
   E4 --> F4[Gesture]
   F4 --> G4[Icon]
