@@ -1,5 +1,8 @@
 ```mermaid
 
+graph TD
+
+  %% Column 1
   A1[.md → Molecular] --> B1[Synaptic]
   B1 --> C1[🧠 Fractal]
   C1 --> D1[🪞 Distinctions]
